@@ -91,10 +91,10 @@ Tracked in a [Notion kanban board](https://app.notion.com/p/595503fbb0244cb69675
  
 | Phase | Status |
 |---|---|
-| 1. Setup (Databricks, Unity Catalog, Snowflake trial) | ✅ Mostly done — Databricks↔Snowflake connectivity test in progress |
-| 2. Bronze — Ingestion (Unity Catalog + Autoloader) | 🟡 Built, ready for review |
-| 3. Silver — Cleaning | ⬜ Not started |
-| 4. Gold — Star Schema (incl. SCD1/SCD2) | ⬜ Not started |
+| 1. Setup (Databricks, Unity Catalog, Snowflake trial) | ✅ Done |
+| 2. Bronze — Ingestion (Unity Catalog + Autoloader) | ✅ Done |
+| 3. Silver — Cleaning | ✅ Done |
+| 4. Gold — Star Schema (incl. SCD1/SCD2) | ✅ Done |
 | 5. Snowflake Load | ⬜ Not started |
 | 6. Power BI Dashboard | ⬜ Not started |
 | 7. Polish & Docs | ⬜ Not started |
