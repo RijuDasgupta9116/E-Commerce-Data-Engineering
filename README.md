@@ -65,16 +65,7 @@ Raw CSVs live in [`/data`](./data) in this repo and are uploaded into a Unity Ca
 ## Data model (Gold layer)
  
 Star schema with the following planned entities:
- 
-**Facts**
-- `Fact_Order`
-- `Fact_Payment`
-- `Fact_Review`
-**Dimensions**
-- `Dim_Customer` — **SCD Type 1** (overwrite on change, no history)
-- `Dim_Product` — **SCD Type 2** (historized: `effective_start_date`, `effective_end_date`, `is_current`)
-- `Dim_Seller` — **SCD Type 2** (historized, same pattern as Dim_Product)
-- `Dim_Date` — generated date dimension
+ ![Data Model](Data_modelling_start_schema.png)
 SCD2 changes are applied via Delta Lake `MERGE` with expire-and-insert logic (`WHEN MATCHED` → close out old row, `WHEN NOT MATCHED` → insert new current row).
  
 ---
