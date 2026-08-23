@@ -2,8 +2,6 @@
  
 An end-to-end data engineering portfolio project built on the public **Olist Brazilian E-Commerce** dataset. The pipeline follows a **Medallion architecture** (Bronze → Silver → Gold) on **Databricks Free Edition**, with the Gold layer loaded into **Snowflake** and visualized in **Power BI**.
  
-> 🚧 **Status: In progress.** Bronze ingestion is built and under review; Silver and Gold layers are in design/build. See [Project Status](#project-status) below for the live breakdown.
- 
 ---
  
 ## Architecture
@@ -99,12 +97,6 @@ Tracked in a [Notion kanban board](https://app.notion.com/p/595503fbb0244cb69675
 ## KPIs (Power BI, planned)
  
 Revenue, Monthly Sales, Top Products, Top Customers, Avg Delivery Time, Cancellation Rate, Payment Type Distribution, Top Cities, Customer Retention.
- 
----
- 
-## Getting started
- 
-*(To be filled in once the Bronze/Silver/Gold notebooks are finalized — will include Unity Catalog setup steps, how to point Autoloader at the landing volume, and how to run the pipeline end to end.)*
  
 ---
  
